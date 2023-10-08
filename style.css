@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+body{
+    background-image: url(../trabalho/pexels-kien-yu-6128370\ \(1\).jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+img{
+    width: 80px;
+}
+
+
+h1{
+    color: white;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+
+.portifolio{
+    color: white;
+    font-size: 12px;
+}
+.btn a{
+    text-decoration: none;
+    color: #826dee;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 1.6;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.btn{
+    display: flex;
+    list-style-type: none;
+    transition: all 0.5s;
+    position: relative;
+    margin: 4px;
+    width: 180px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+  }
+
+  .btn:hover{
+    background: rgba(255,255,255,0.2);
+  }
+  .btn:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 2.5px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2,1.3);
+    border-radius: 8px;
+    pointer-events: none;
+  }
+  .btn:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+    
+  }
+
+.img_foto{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -70px;
+    object-fit: cover;
+    border: 1.5px solid white;
+}
+  
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: 1.5px solid #e4dfdf;
+    border-radius: 6px;
+    background: rgb(207,215,217);
+    background: linear-gradient(0deg, rgba(207, 215, 217, 0.327) 0%, rgba(183, 182, 182, 0.48) 100%);
+    width: 300px;
+    height: 240px;
+    margin-top: 12%;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#nome, #email{
+    width: 180px;
+}
+
+#mensagem{
+    width: 180px;
+}
+
+form, .section-container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1.5px solid #e4dfdf;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(231, 243, 246, 0.7) 0%, rgba(233, 224, 224, 0.6) 100%);
+    max-width: 400px;
+    min-height: 240px;
+    min-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input-container{
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 4px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgb(12, 12, 12);
+    margin-top: 8px;
+}
+
+#mensagem{
+    color: #4b484853;
+}
+
+h3, h4, h5, h6{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.imagem-sobre {
+    margin-top: 12px;
+    margin-left: 3px;
+    width: 180px;
+    height: auto;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(74, 68, 68);
+
+}
+
+.imagem-hobbies{
+    margin-top: 12px;
+    margin-left: 3px;
+    width: 180px;
+    height: auto;
+}
